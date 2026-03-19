@@ -1,0 +1,25 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false
+  },
+  "stasis": {
+    "type": "origins:modify_velocity",
+    "modifier": {
+      "value": -1,
+      "operation": "multiply_total_multiplicative"
+    },
+    "axes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "condition": {
+      "type": "origins:power_active",
+      "power": "sneakyclasses:bard/music_toggle"
+    }
+  },
+  "name": "Magical Music",
+  "description": "Press active to toggle whether you're playing a song or not"
+}

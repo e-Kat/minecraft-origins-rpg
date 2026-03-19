@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"sneakyclasses:bard/music",
+    "sneakyclasses:bard/songs/storms"
+	],
+	"icon": "minecraft:note_block",
+	"order": 10,
+	"impact": 0,
+	"name": "Bard",
+	"description": "PLACEHOLDER, REPLACE THIS LATER OR I'LL PLAY(?) YOU"
+}

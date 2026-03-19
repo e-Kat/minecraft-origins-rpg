@@ -1,0 +1,64 @@
+{
+  "type": "origins:multiple",
+  "climbing": {
+    "type": "origins:climbing",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:collided_horizontally"
+        },
+        {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "head",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": "<=",
+                "compare_to": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "chest",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": "<=",
+                "compare_to": 3
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "legs",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": "<=",
+                "compare_to": 2
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "feet",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": "<=",
+                "compare_to": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "origins:power_active",
+          "power": "sneakyclasses:thief/wallclimb_toggle"
+        }
+      ]
+    }
+  },
+  "toggle": {
+    "type": "origins:toggle"
+  },
+  "name": "Wall Climb",
+  "description": "You know how to climb up walls, as long as you're not weighed down by heavy armor"
+}

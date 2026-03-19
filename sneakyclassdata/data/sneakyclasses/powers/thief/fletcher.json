@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_crafting",
+  "recipe": "minecraft:arrow",
+  "result": {
+    "item": "minecraft:arrow",
+    "amount": 16
+  },
+  "name": "Fletching",
+  "description": "You're very familiar with the creation of arrows, letting you make more with the same amount of resources."
+}

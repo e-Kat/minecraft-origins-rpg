@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "origins": [
+    "sneakyclasses:thief",
+    "sneakyclasses:bard"
+  ]
+}
