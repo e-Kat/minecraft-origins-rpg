@@ -1,0 +1,113 @@
+{
+    "type": "eggolib:action_on_key_sequence",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "sneakyclasses:bard/music_toggle"
+    },
+    "success_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:toggle",
+            "power": "sneakyclasses:bard/music_toggle"
+          },
+          {
+            "type": "origins:if_else",
+            "condition": {
+              "type": "eggolib:exposed_to_weather",
+              "weather": "none"
+            },
+            "if_action": {
+              "type": "origins:execute_command",
+              "command": "weather thunder"
+            },
+            "else_action": {
+              "type": "origins:execute_command",
+              "command": "weather clear"
+            }
+          }
+        ]
+    },
+    "cooldown": 60,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 8
+    },
+    "keys": [
+        {
+            "key": "key.forward",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.note_block.flute",
+                    "pitch": 1.587401
+                  }
+                ]
+            }
+        },
+        {
+            "key": "key.left",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.note_block.flute",
+                    "pitch": 1.334840
+                  }
+                ]
+            }
+        },
+        {
+            "key": "key.right",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.note_block.flute",
+                    "pitch": 1.189207
+                  }
+                ]
+            }
+        },
+        {
+            "key": "key.back",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.note_block.flute",
+                    "pitch": 0.943874
+                  }
+                ]
+            }
+        },
+        {
+            "key": "key.jump",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.note_block.flute",
+                    "pitch": 0.793701
+                  }
+                ]
+            }
+        }
+    ],
+    "key_sequence": [
+        "key.jump",
+        "key.back",
+        "key.forward",
+        "key.jump",
+        "key.back",
+        "key.forward"
+    ],
+    "hidden": true
+}

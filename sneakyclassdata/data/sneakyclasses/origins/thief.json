@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"sneakyclasses:thief/fletcher",
+    "sneakyclasses:thief/stealth",
+    "sneakyclasses:thief/wallclimb",
+    "sneakyclasses:thief/coating",
+    "sneakyclasses:thief/luckysevens"
+	],
+	"icon": "minecraft:bow",
+	"order": 10,
+	"impact": 0,
+	"name": "Thief",
+	"description": "PLACEHOLDER, REPLACE THIS LATER OR I'LL STEAL FROM YOU"
+}
