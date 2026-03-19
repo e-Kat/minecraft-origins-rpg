@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": {
+      "text": "the green",
+      "extra": [
+        {
+          "text": " orange",
+          "color": "dark_green"
+        }
+      ],
+      "color": "gold"
+    }
+  }
+}
