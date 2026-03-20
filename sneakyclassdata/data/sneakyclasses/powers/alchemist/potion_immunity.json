@@ -33,6 +33,6 @@
     "effect": "minecraft:bad_omen"
   },
   "name": "Potion Immunity",
-  "description": "Your body is resistant to negative potion effects, and you are immune to poison, nausea, wither, darkness, slowness, mining fatigue, weakness, and bad omen."
+  "description": "Your body is resistant to negative potion effects."
 }
 
