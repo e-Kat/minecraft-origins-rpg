@@ -90,3 +90,7 @@ This Origins RPG project transforms Minecraft into a more immersive role-playing
     - sneakyclassdata
     - sneakyclassresource
 - Start the world and enjoy the new classes! 
+
+## Developer Resources
+**References**
+- Minecraft Potion IDs: https://minecraftitemids.com/types/potion
