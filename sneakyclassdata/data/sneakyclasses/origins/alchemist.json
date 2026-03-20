@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"sneakyclasses:alchemist/potion_immunity",
+		"sneakyclasses:alchemist/potion_enhancement"
+	],
+	"icon": "minecraft:potion",
+	"order": 0,
+	"impact": 0,
+	"name": "Alchemist",
+	"description": "Master the art of potions. Negative effects are negated, your brews are stronger, and debuffs unlock special power."
+}
+
