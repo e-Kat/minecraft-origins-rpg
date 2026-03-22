@@ -1,0 +1,38 @@
+{
+  "type": "origins:multiple",
+  "poison_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:poison"
+  },
+  "nausea_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:nausea"
+  },
+  "wither_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither"
+  },
+  "darkness_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:darkness"
+  },
+  "slowness_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:slowness"
+  },
+  "mining_fatigue_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:mining_fatigue"
+  },
+  "weakness_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:weakness"
+  },
+  "bad_omen_immunity": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:bad_omen"
+  },
+  "name": "Potion Immunity",
+  "description": "Your body is resistant to negative potion effects."
+}
+

@@ -1,0 +1,20 @@
+{
+  "type": "origins:multiple",
+  "effect_duration_enhancement": {
+    "type": "origins:modify_status_effect_duration",
+    "modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": 0.5
+    }
+  },
+  "effect_power_enhancement": {
+    "type": "origins:modify_status_effect_amplifier",
+    "modifier": {
+      "operation": "add_base_early",
+      "value": 1
+    }
+  },
+  "name": "Potion Enhancement",
+  "description": "Your beneficial potions last longer and are more potent"
+}
+
