@@ -1,0 +1,10 @@
+{
+  "type": "origins:multiple",
+  "potion_crafting_boost": {
+    "type": "origins:crafting",
+    "recipe": "sneakyclasses:alchemist/upgrade_strength_potion"
+  },
+  "name": "Brewmaster",
+  "description": "Craft stronger potions using enhanced recipes. Combine a Potion of Strength with Glowstone Dust to create a stronger version. Works for multiple potion types!"
+}
+

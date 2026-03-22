@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:turtle_master\"}"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:potion",
+    "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+  }
+}
