@@ -6,7 +6,7 @@
       "nbt": "{Potion:\"minecraft:water_breathing\"}"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

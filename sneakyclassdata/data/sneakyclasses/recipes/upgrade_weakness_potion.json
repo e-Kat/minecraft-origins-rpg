@@ -6,7 +6,7 @@
       "nbt": "{Potion:\"minecraft:weakness\"}"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

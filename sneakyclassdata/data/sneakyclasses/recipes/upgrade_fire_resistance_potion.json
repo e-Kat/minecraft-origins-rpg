@@ -6,7 +6,7 @@
       "nbt": "{Potion:\"minecraft:fire_resistance\"}"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

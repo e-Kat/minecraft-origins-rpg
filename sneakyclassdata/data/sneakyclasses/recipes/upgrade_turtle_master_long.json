@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:night_vision\"}"
+      "nbt": "{Potion:\"minecraft:turtle_master\"}"
     },
     {
       "item": "minecraft:redstone"
@@ -11,7 +11,6 @@
   ],
   "result": {
     "item": "minecraft:potion",
-    "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+    "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
   }
 }
-

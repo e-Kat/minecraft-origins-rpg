@@ -3,15 +3,15 @@
   "ingredients": [
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:night_vision\"}"
+      "nbt": "{Potion:\"minecraft:leaping\"}"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:glowstone_dust"
     }
   ],
   "result": {
     "item": "minecraft:potion",
-    "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+    "nbt": "{Potion:\"minecraft:strong_leaping\"}"
   }
 }
 

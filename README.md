@@ -11,6 +11,7 @@ Welcome to the Minecraft Origins RPG project! This datapack and resourcepack add
 - Negative potion effects do not affect them (negated or replaced with positive effects)
 - Brewed potions last longer or are stronger (with access to extra recipes for enhanced potions)
 - Can use special abilities only when debuffed, turning weaknesses into strengths
+- Chance to not consume potions when you drink them
 
 ### Armorer
 *The armor specialist and defensive guardian*
